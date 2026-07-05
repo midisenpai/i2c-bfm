@@ -1,5 +1,5 @@
 CAPI=2:
-name: midimaster21b:bfm:i2c:0.1.0
+name: midisenpai:bfm:i2c:0.1.1
 description: A basic i2c BFM
 
 filesets:
