@@ -243,8 +243,8 @@ module i2c_slave_bfm(scl, sda);
 
   // Main slave BFM operation
   initial begin
-    sda_out <= 1'b0;
-    sda_z   <= 1'b1;
+    sda_out = 1'b0;
+    sda_z   = 1'b1;
 
     forever begin
       i2c_s_await_transaction();
