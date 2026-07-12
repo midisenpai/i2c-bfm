@@ -2,7 +2,7 @@ module i2c_master_bfm(scl, sda);
    output logic scl;
    inout  logic sda;
 
-   parameter clk_freq;
+   parameter int clk_freq = 400000;
    time      period = 1s/(clk_freq);
 
    const logic READ_C  = 1'b1;
