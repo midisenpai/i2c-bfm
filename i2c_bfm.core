@@ -1,5 +1,5 @@
 CAPI=2:
-name: midisenpai:bfm:i2c:0.1.1
+name: midisenpai:bfm:i2c:0.1.2
 description: A basic i2c BFM
 
 filesets:
